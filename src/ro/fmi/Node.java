@@ -38,7 +38,7 @@ public class Node {
                 .findFirst()
                 .orElse(null);
 
-        if (e == null){
+        if (e == null) {
             System.out.println("Nu exista elementul " + x + " in baza de date");
             return;
         }
